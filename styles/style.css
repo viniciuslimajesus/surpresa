@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+:root {
+    --cor00:#FA0134;
+    --cor01:#CF2345;
+    --cor02:#A5374D;
+    --cor03:#7A3D49;
+    --cor04:#50353B;
+    --cor05:#332B2C;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(-75deg, var(--cor01), var(--cor02));
+}
+
+ h1 {
+    width: 100vw;
+    padding: 12px;
+    background-color: var(--cor05);
+    font-family: "Marck Script", cursive;
+    font-size: 2.4em;
+    text-align: center;
+    color: var(--cor02);
+}
+
+main {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 12px;
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.541);
+}
+
+main h2 {
+    font-family: "Sacramento", cursive;
+    font-size: 2.6em;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+section.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 300px;
+    background-color: var(--cor04);
+    box-shadow: inset 0px 0px 15px #141112d7;
+    
+}
+
+section.video > video {
+    width: 95%;
+    height: 280px;
+    transform: translateY(-18px);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    padding: 5px;
+    background-color: var(--cor05);
+    color: #fff;
+}
+
+
+
