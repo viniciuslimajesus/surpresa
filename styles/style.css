@@ -75,9 +75,8 @@ section.video > video {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100vw;
+    margin-top: 98px;
     padding: 5px;
     background-color: var(--cor05);
     color: #fff;
