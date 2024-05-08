@@ -68,10 +68,9 @@ section.video {
     
 }
 
-section.video > video {
+section.video > .vid {
     width: 95%;
     height: 280px;
-    transform: translateY(-18px);
 }
 
 footer {
